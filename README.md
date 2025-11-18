@@ -57,10 +57,7 @@ pip install scikit-misc  # Additional requirement
 
 ### Run Analysis
 ```bash
-# Run complete pipeline
-./run_pipeline.sh
-
-# Or run individual steps
+# Run individual steps
 python scripts/01_download_data.py      # ~5 min
 python scripts/02_quality_control.py    # ~2 min
 python scripts/03_preprocessing.py      # ~3 min
