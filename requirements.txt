@@ -1,0 +1,43 @@
+# Core single-cell analysis
+scanpy
+anndata
+
+# Data manipulation
+pandas
+numpy
+scipy
+
+# Visualization
+matplotlib
+seaborn
+plotly
+umap-learn
+
+# Machine learning
+scikit-learn
+xgboost
+lightgbm
+imbalanced-learn
+
+# Deep learning (optional for later)
+torch
+torchvision
+# Image processing
+Pillow
+scikit-image
+
+# Spatial transcriptomics
+squidpy
+
+# Model interpretation
+shap==0.43.0
+
+# Quality control
+scrublet==0.2.3
+
+# Utilities
+jupyterlab
+tqdm
+leidenalg
+python-igraph
+h5py

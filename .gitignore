@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+*.egg-info/
+
+# Data files
+data/raw/*.h5ad
+data/raw/*.h5
+data/raw/*.tar.gz
+data/images/raw/*.tif
+data/images/raw/*.png
+*.h5ad
+
+# Models
+models/trained/*.pkl
+models/trained/*.pt
+models/checkpoints/
+
+# Results (optional)
+# results/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
